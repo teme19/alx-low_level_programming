@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
+*main - print the string in printf function
 *Description: this program prints string in the printf function
+*return: 0
 */
 int main(void)
 {
