@@ -2,7 +2,7 @@
 /**
 *main - print the string in the put function
 *Description: this program prints the string in the puts function
-*return: 0 
+*Return:Always 0 
 */
 int main(void)
 {
