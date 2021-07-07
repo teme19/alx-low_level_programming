@@ -48,7 +48,8 @@ iterate_wild(wildstr);
  * @str: The string to be matched.
  * @postfix: The postfix.
  *
- * Return: If str and postfix are identical - a pointer to the null byte located at the end of postfix.
+ * Return: If str and postfix are identical - a pointer to the null byte
+ *located at the end of postfix.
  *Otherwise - a pointer to the first unmatched character in postfix.
  */
 char *postfix_match(char *str, char *postfix)
