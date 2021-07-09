@@ -1,0 +1,1 @@
+0-Create the static library libholberton.a containing all the functions listed.
