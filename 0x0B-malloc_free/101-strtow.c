@@ -49,7 +49,7 @@ return (words);
 /**
 * strtow - Splits a string into words.
 * @str: The string to be split.
-* Return:0 
+* Return: 0
 */
 char **strtow(char *str)
 {
