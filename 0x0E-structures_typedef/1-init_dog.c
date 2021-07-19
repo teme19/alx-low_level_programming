@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "dog.h"
 
-/** 
+/**
 * init_dog - Initializes a dog structure
 * @d: A dog structure.
 * @name: The name of the dog.
