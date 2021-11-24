@@ -6,13 +6,15 @@ OBJ=$(SRC:.c=.o)
 NAME=school
 RM=rm -f
 
-all: $(SRC) $(NAME)
-$(NAME): $(OBJ)
-	$(CC) -Wall -Werror -Wextra -pedantic $(OBJ) -o $@
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
 clean:
-	$(RM) *~ $(NAME) 
-fclean:
-	$(RM) *~ $(NAME) $(OBJ)	
+	$(RM) *~ $(NAME)
+
 oclean:
 	$(RM) $(OBJ)
-re: oclean all
+
+fclean: clean oclean
+
+re: fclean all
